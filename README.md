@@ -12,3 +12,5 @@ Example:
 
     http://thomaspeklak.github.com/jquery-texthighlight?highlight=jquery;highlight
 
+To toggle the highlight on/off you can use `$.texthighlight.toggle()`
+
