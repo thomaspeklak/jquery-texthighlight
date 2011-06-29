@@ -8,6 +8,13 @@
   <link media="all" href="styles/style.css" type="text/css" rel="stylesheet" />
   <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
   <script type="text/javascript" charset="utf-8" src="./jQueryTextHightlight.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(function(){
+        if($('.highlight').length === 0) return;
+        $('code.toggle')
+        .css({cursor:'pointer', textDecoration:'underline'})
+        .click(function(){$.textHighlight.toggle()})});
+  </script>
 </head>
 <body>
 
@@ -21,6 +28,7 @@
       <p><strong>jQueryTextHighlight</strong> is a convenient way to highlight terms on a page with a simple url parameter</p>
       <p>USAGE:</p>
       <p>Visit <a href="?highlight=jquery;highlight">this page with highlighted texts</a></p>
+      <p>To toggle the highlight on/off you can use <code class="toggle">$.texthighlight.toggle()</code></p>
     </div>
 
     <div class="download">
