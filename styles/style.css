@@ -1,6 +1,6 @@
 body{font:normal 12px/1.45 "Lato", "lucida Grande", "Calibri", "Arial", sans-serif;padding:20px;background-color: #ffffff; color: #000000;}
 h1, h2, h3{font-family: 'Limelight', 'Lucida Grnade', 'Calibri', 'Arial', sans-serif}
-.highlight{background:#ffc}
+.highlight{background:#ffc;color:#333}
 
 #container {
   margin: 0 auto;
